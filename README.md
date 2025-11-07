@@ -1,3 +1,4 @@
+[View the deployed web app](https://telecomchurnprediction-chtzq8xskmbnodddskup8p.streamlit.app/)
 # 📊 Telecom Customer Churn Prediction
 
 A machine learning project that predicts whether a telecom customer is likely to churn based on their usage behavior and plan details.  

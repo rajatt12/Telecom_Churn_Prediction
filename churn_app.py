@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # --- Load Model ---
-model = joblib.load("E:\Training\Churn_Prediction\churn_decision_tree.joblib")
+model = joblib.load("churn_decision_tree.joblib")
 
 # --- Page Setup ---
 st.title("📊 Telecom Customer Churn Prediction")
@@ -38,3 +38,4 @@ if st.button("🔍 Predict Churn"):
         st.error("⚠️ The customer is likely to CHURN.")
     else:
         st.success("✅ The customer is NOT likely to churn.")
+
